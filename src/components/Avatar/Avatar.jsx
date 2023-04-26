@@ -19,7 +19,7 @@ function Avatar({
     textAlign: "center",
     cursor: cursor || null,
   };
-  return <div style={style}>{children}</div>;
+  return( <div style={style}>{children}</div>)
 }
 
 export default Avatar;
